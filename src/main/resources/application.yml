@@ -1,0 +1,25 @@
+spring:
+  main:
+    web-application-type: none
+    
+spark:
+ stream:
+  kafka:
+   brokers: localhost:9092
+   topics: test
+   intervals: 5
+   
+  master:
+   mode: localw
+   host: local[*]
+   port:
+  appname: Sparkbatch
+ driver:
+  memory: 5g
+  
+  
+cassandra:
+  keyspace: "ip_data"
+  table: "ip_table"
+  connection:
+    host: "127.0.0.1"
