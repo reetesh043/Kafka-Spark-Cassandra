@@ -20,17 +20,17 @@
 	</parent>
 
 	<properties>
-		<org.apache.spark.spark-core.version>2.3.0</org.apache.spark.spark-core.version>
+		<org.apache.spark.spark-core.version>2.3.3</org.apache.spark.spark-core.version>
 		<docker.image.prefix>springio</docker.image.prefix>
 		<maven-compiler-plugin.version>2.3.2</maven-compiler-plugin.version>
 		<maven-scala-plugin.version>3.2.0</maven-scala-plugin.version>
 		<maven-surefire-plugin.version>2.12</maven-surefire-plugin.version>
 		<maven-shade-plugin.version>2.3</maven-shade-plugin.version>
-		<org.apache.spark.spark-sql.version>2.3.0</org.apache.spark.spark-sql.version>
-		<org.apache.spark.spark-streaming.version>2.3.0</org.apache.spark.spark-streaming.version>
-		<org.apache.spark.spark-mllib.version>2.3.0</org.apache.spark.spark-mllib.version>
-		<org.apache.spark.spark-streaming-kafka.version>2.3.0</org.apache.spark.spark-streaming-kafka.version>
-		<com.datastax.spark.spark-cassandra-connector.version>2.3.0</com.datastax.spark.spark-cassandra-connector.version>
+		<org.apache.spark.spark-sql.version>2.3.3</org.apache.spark.spark-sql.version>
+		<org.apache.spark.spark-streaming.version>2.3.3</org.apache.spark.spark-streaming.version>
+		<org.apache.spark.spark-mllib.version>2.3.3</org.apache.spark.spark-mllib.version>
+		<org.apache.spark.spark-streaming-kafka.version>2.3.3</org.apache.spark.spark-streaming-kafka.version>
+		<com.datastax.spark.spark-cassandra-connector.version>2.3.3</com.datastax.spark.spark-cassandra-connector.version>
 		<com.datastax.spark.spark-cassandra-connector-java.version>1.5.2</com.datastax.spark.spark-cassandra-connector-java.version>
 		<maven-compiler-plugin.version>3.2</maven-compiler-plugin.version>
 	</properties>
