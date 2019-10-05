@@ -16,10 +16,7 @@ The API which will be consuming messages from kafka and storing into cassandra u
 
 * Java 1.8
 * Maven 3.5 or higher
-   -- We use [Maven Wrapper](https://github.com/takari/takari-maven-plugin) to ensure projects can have their own versions of Maven and not rely on the operating system
-* Maven settings.xml to your ~/.m2/ folder
 * Kafka 2.12-2.0.0 (or latest stable)
-    - Note: Test, Pre-Prod and Prod clusters are setup with Kafka version 0.10.0.2.5
 * Spark 2.3.0
 * Scala 2.11.12
 * Cassandra - latest stable version
