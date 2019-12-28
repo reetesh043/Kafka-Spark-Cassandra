@@ -150,7 +150,7 @@ Step 4:  Start the Spark Shell- run the below command
 #### Run the project as jar 
 
   1. Build project for every changes to create the jar
-       mvn clesn package
+       mvn clean package
        
   2. To Run the jar
       java -jar /PathOfJarFile
